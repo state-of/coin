@@ -1,0 +1,14 @@
+{
+    "category": {
+        "attributes": {
+            "title": "Invest in cryptocurrency",
+            "description": null,
+            "permanent_id": "invest"
+        },
+        "topics": [
+            "exchanges",
+            "coin-trust",
+            "coin-performance"
+        ]
+    }
+}
