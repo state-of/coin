@@ -1,0 +1,40 @@
+{
+    "topic": {
+        "attributes": {
+            "title": "Decentralized Exchanges",
+            "description": "",
+            "snapshot_date": "2018-02-01",
+            "permanent_id": "exchanges-decentralized",
+            "chart_type": "bubble"
+        },
+        "items": [
+            {
+                "id": "dex",
+                "title": "DEX",
+                "axis": {
+                    "x": 0.2,
+                    "y": 0.8
+                }
+            }
+        ],
+        "axis": {
+            "y": {
+                "label": "Trust",
+                "more": "High",
+                "less": "Low"
+            },
+            "x": {
+                "label": "Cryptocurrencies",
+                "more": "Majority",
+                "less": "A few"
+            }
+        }
+    },
+    "events": [
+        {
+            "date": null,
+            "source": null,
+            "title": null
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "topic": {
+        "attributes": {
+            "title": "Token Development",
+            "description": "State of crypto tokens given the point in their life cycle.",
+            "snapshot_date": "2018-02-01",
+            "permanent_id": "token-development",
+            "chart_type": "bubble"
+        },
+        "items": [
+            {
+                "title": "Tezos",
+                "description": " ",
+                "axis": {
+                    "x": 1,
+                    "y": 0.8
+                },
+                "id": "tezos"
+            }
+        ],
+        "axis": {
+            "y": {
+                "label": "Expectation"
+            }
+        },
+        "states": [
+            {
+                "width": 0.2,
+                "label": "Hype"
+            },
+            {
+                "width": 0.2,
+                "label": "ICO"
+            },
+            {
+                "width": 0.2,
+                "label": "Development"
+            },
+            {
+                "width": 0.2,
+                "label": "Deathpool"
+            },
+            {
+                "width": 0.2,
+                "label": "Launched"
+            }
+        ],
+        "size": []
+    },
+    "events": [
+        {
+            "date": null,
+            "source": null,
+            "title": null
+        }
+    ]
+}

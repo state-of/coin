@@ -1,0 +1,51 @@
+{
+    "topic": {
+        "attributes": {
+            "title": "Token ICO's",
+            "description": "ICO data for tokens",
+            "snapshot_date": "2018-02-01",
+            "permanent_id": "token-ico",
+            "chart_type": "bubble"
+        },
+        "items": [
+            {
+                "title": "Tezos",
+                "description": " ",
+                "axis": {
+                    "x": 0.2,
+                    "y": 0.1
+                },
+                "id": "tezos"
+            },
+            {
+                "title": "Mobius",
+                "description": "39M",
+                "axis": {
+                    "x": 0.6,
+                    "y": 0.1
+                },
+                "id": "tezos"
+            }
+        ],
+        "axis": {
+            "y": {
+                "label": "Amount raised"
+            },
+            "x": {
+                "label": "Token price",
+                "less": "declined",
+                "more": "increased"
+            }
+        },
+        "size": {
+            "label": "Age"
+        }
+    },
+    "events": [
+        {
+            "date": null,
+            "source": null,
+            "title": null
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "topic": {
+        "attributes": {
+            "title": "Crypto Coins Technical",
+            "description": "Technical aspects of coins stated in centralized /privacy (zcash, monero) versus xx",
+            "snapshot_date": "2018-02-01",
+            "permanent_id": "coin-technical",
+            "chart_type": "hype"
+        }
+    }
+}

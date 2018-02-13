@@ -1,0 +1,58 @@
+{
+    "_comment" : "",
+    "topic": {
+        "attributes": {
+            "title": "Regulation by Country.",
+            "description": "",
+            "snapshot_date": "2018-02-01",
+            "permanent_id": "regulation",
+            "chart_type": "bubble"
+        },
+        "items": [
+            {
+                "title": "Switserland",
+                "axis": {
+                    "x": 0.8,
+                    "y": 0.8
+                },
+                "id": "ch"
+            },
+            {
+                "title": "United States",
+                "axis": {
+                    "x": 0.8,
+                    "y": 0.8
+                },
+                "id": "us"
+            },
+            {
+                "title": "China",
+                "axis": {
+                    "x": 0.8,
+                    "y": 0.8
+                },
+                "id": "cn"
+            },
+            {
+                "title": "Japan",
+                "axis": {
+                    "x": 0.8,
+                    "y": 0.8
+                },
+                "id": "ch"
+            }
+        ],
+        "axis": {
+            "y": {
+                "label": "Regulation",
+                "more": "Fierce",
+                "less": "Little"
+            },
+            "x": {
+                "label": "Stance",
+                "more": "Unfavorable",
+                "less": "Favoroble"
+            }
+        }
+    }
+}

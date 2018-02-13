@@ -1,0 +1,92 @@
+{
+    "topic": {
+        "attributes": {
+            "title": "Transaction performance of cryptos",
+            "description": "Listing of cryptos plotted against average transaction price and average transaction time.",
+            "snapshot_date": "2018-02-01",
+            "permanent_id": "coin-transactions",
+            "chart_type": "bubble"
+        },
+        "items": [
+            {
+                "title": "XRP",
+                "axis": {
+                    "x": 0.1,
+                    "y": 0.5
+                },
+                "id": "xrp"
+            },
+            {
+                "title": "Stellar",
+                "axis": {
+                    "x": 0.2,
+                    "y": 0.1
+                },
+                "id": "xlm"
+            },
+            {
+                "title": "BCH",
+                "axis": {
+                    "x": 0.3,
+                    "y": 0.6
+                },
+                "id": "bch"
+            },
+            {
+                "title": "ETH",
+                "axis": {
+                    "x": 0.4,
+                    "y": 0.7
+                },
+                "id": "eth"
+            },{
+                "title": "XEM",
+                "axis": {
+                    "x": 0.6,
+                    "y": 0.6
+                },
+                "id": "xem"
+            },{
+                "title": "DASH",
+                "axis": {
+                    "x": 0.8,
+                    "y": 0.55
+                },
+                "id": "dash"
+            },{
+                "title": "LTC",
+                "axis": {
+                    "x": 0.78,
+                    "y": 0.53
+                },
+                "id": "eth"
+            },{
+                "title": "BTC",
+                "axis": {
+                    "x": 0.9,
+                    "y": 0.9
+                },
+                "id": "btc"
+            }
+        ],
+        "axis": {
+            "x": {
+                "label": "Avg. transaction time",
+                "less": "short",
+                "more": "long"
+            },
+            "y": {
+                "label": "Avg. transaction fee"            }
+        },
+        "size": {
+            "label": "Total transactions"
+        }
+    },
+    "events": [
+        {
+            "date": null,
+            "source": null,
+            "title": null
+        }
+    ]
+}

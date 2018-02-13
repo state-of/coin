@@ -1,0 +1,67 @@
+{
+    "topic": {
+        "attributes": {
+            "title": "Cryptocurrency Development",
+            "description": "State of Crypto Coins development maturity.",
+            "snapshot_date": "2018-02-01",
+            "permanent_id": "coin-development",
+            "chart_type": "market"
+        },
+        "items": [
+            {
+                "title": "Bitcoin",
+                "description": "Bitcoin (BTC)",
+                "axis": {
+                	"x": 0.9043018229723231,
+                	"y": 0.72248348942509404
+                },
+                "id": "btc"
+            },
+            {
+                "title": "Ethereum",
+                "description": "Ethereum (ETH)",
+                "axis": {
+                	"x": 0.3325201994698562,
+                	"y": 0.6488301595052083
+                },
+                "id": "eth"
+            },
+            {
+                "title": "Litecoin",
+                "description": "Litecoin (LTC)",
+                "axis": {
+                    "x": 0.848,
+                    "y": 0.6
+                },
+                "id": "ltc"
+            },
+            {
+                "title": "Monero",
+                "description": "Monero (XMR)",
+                "axis": {
+                	"x": 0.7137079371686933,
+                	"y": 0.45282940334743926
+                },
+                "id": "xmr"
+            }
+        ],
+        "axis": {
+            "y": {
+                "label": "Activity"
+            },
+            "x": {
+                "label": "Technical innovation"
+            }
+        },
+        "states": [
+        ],
+        "size": []
+    },
+    "events": [
+        {
+            "date": null,
+            "source": null,
+            "title": null
+        }
+    ]
+}

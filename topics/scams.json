@@ -1,0 +1,19 @@
+{
+    "_comment" : "",
+    "topic": {
+        "attributes": {
+            "title": "Crypto Scams",
+            "snapshot_date": "2018-02-01",
+            "permanent_id": "scams",
+        },
+        "items": [],
+        "axis": {
+            "y": {
+                "label": "Amount Lost",
+            },
+            "x": {
+                "label": "Market Impact",
+            }
+        }
+    }
+}

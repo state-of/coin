@@ -1,0 +1,85 @@
+{
+    "topic": {
+        "attributes": {
+            "title": "Coin Market Performance (2017)",
+            "description": "The 2017 year-over-year market performance of dominant crypto coins.",
+            "snapshot_date": "2018-02-01",
+            "permanent_id": "coin-performance",
+            "chart_type": "bubble"
+        },
+        "items": [
+            {
+                "title": "XRP",
+                "axis": {
+                    "x": 0.8,
+                    "y": 0.8
+                },
+                "id": "xrp"
+            },
+            {
+                "title": "Stellar",
+                "axis": {
+                    "x": 0.75,
+                    "y": 0.65
+                },
+                "id": "xlm"
+            },
+            {
+                "title": "ETH",
+                "axis": {
+                    "x": 0.5,
+                    "y": 0.6
+                },
+                "id": "eth"
+            },{
+                "title": "XEM",
+                "axis": {
+                    "x": 0.70,
+                    "y": 0.78
+                },
+                "id": "xem"
+            },{
+                "title": "DASH",
+                "axis": {
+                    "x": 0.4,
+                    "y": 0.6
+                },
+                "id": "dash"
+            },{
+                "title": "LTC",
+                "axis": {
+                    "x": 0.45,
+                    "y": 0.55
+                },
+                "id": "eth"
+            },{
+                "title": "BTC",
+                "axis": {
+                    "x": 0.47,
+                    "y": 0.4
+                },
+                "id": "btc"
+            }
+        ],
+        "axis": {
+            "x": {
+                "label": "Trading volume increase",
+                "less": "10x",
+                "more": "10.000x"
+            },
+            "y": {
+                "label": "Token price increase"
+            }
+        },
+        "size": {
+            "label": "Total trade volume"
+        }
+    },
+    "events": [
+        {
+            "date": null,
+            "source": null,
+            "title": null
+        }
+    ]
+}

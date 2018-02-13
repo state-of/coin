@@ -1,0 +1,111 @@
+{
+    "topic": {
+        "attributes": {
+            "title": "Crypto Technology Hype Cycle",
+            "description": "The Crypto Technology Hype Cycle provides an overview of the current state of technology involved with cryptocurrencies.",
+            "snapshot_date": "2017-02-16",
+            "permanent_id": "crypto-technology",
+            "chart_type": "hype"
+        },
+        "items": [
+            {
+                "title": "Blockchain",
+                "description": "The blockchain is at the core of cryptocurrencies. In short it represents a public ledger of who owns what.",
+                "axis": {
+                    "x": 0.52,
+                    "y": null
+                },
+                "id": "blockchain"
+            },
+            {
+                "title": "Tokens (ERC-20)",
+                "description": "Ethereum based tokens go by the ERC-20 standard, and allow third parties to launch custom tokens on top of the Ethereum network. For technical details: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md",
+                "axis": {
+                    "x": 0.3,
+                    "y": null
+                },
+                "id": ""
+            },
+            {
+                "title": "Tokens (Stellar)",
+                "description": "Stellar tokens are custom tokens utilizing the Stellar network.",
+                "axis": {
+                    "x": 0.1,
+                    "y": null
+                },
+                "id": ""
+            },
+            {
+                "title": "Smart Contracts",
+                "description": "Smart Contracts is a program that is executed on the blockchain network.",
+                "axis": {
+                    "x": 0.17,
+                    "y": null
+                },
+                "id": ""
+            },
+            {
+                "title": "Crypto Funds",
+                "description": "Instead of investing in single coins, crypto funds allow users to spread their risk by investing in a wide range of coins.",
+                "axis": {
+                    "x": 0.04,
+                    "y": null
+                },
+                "id": ""
+            },
+            {
+                "title": "dApps",
+                "description": "dApps is short for decentralized apps. It allows programs to execute code on the blockchain network. An interesting overiew: https://www.stateofthedapps.com/",
+                "axis": {
+                    "x": 0.4,
+                    "y": null
+                },
+                "id": ""
+            },
+            {
+                "title": "Lightning Network",
+                "description": "The lightning network is a protocol on top of the blockchain, allowing instant transactions over a payment channel. https://en.wikipedia.org/wiki/Lightning_Network",
+                "axis": {
+                    "x": 0.22,
+                    "y": null
+                },
+                "id": ""
+            }
+        ],
+        "axis": {
+            "y": {
+                "label": "Expectation"
+            }
+        },
+        "states": [
+            {
+                "width": 0.15,
+                "label": "Innovation trigger"
+            },
+            {
+                "width": 0.13,
+                "label": "Peak expectation"
+            },
+            {
+                "width": 0.2,
+                "label": "Disillusionment"
+            },
+            {
+                "width": 0.22,
+                "label": "Enlightenment"
+            },
+            {
+                "width": 0.3,
+                "label": "Productivity plateau"
+            }
+        ],
+        "size": []
+    },
+    "events": [
+        {
+            "date": null,
+            "source": null,
+            "title": null
+        }
+    ]
+}

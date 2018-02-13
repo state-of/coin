@@ -1,0 +1,23 @@
+{
+    "_comment" : "Move into hype cycle. Allows specific (commercial) projects",
+    "topic": {
+        "attributes": {
+            "title": "Infrastructure Initiatives",
+            "description": "",
+            "snapshot_date": "2018-02-01",
+            "permanent_id": "infrastructure-initiatives",
+            "chart_type": "bubble"
+        },
+        "items": [
+            {
+                "title": "Debitcards",
+                "description": "Bitwala (dead)",
+                "axis": {
+                    "x": 0.8,
+                    "y": 0.8
+                },
+                "id": "cards"
+            }
+        ]
+    }
+}

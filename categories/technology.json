@@ -1,0 +1,15 @@
+{
+    "category": {
+        "attributes": {
+            "title": "Crypto Technology",
+            "description": "Hello World",
+            "permanent_id": "technology"
+        },
+        "topics": [
+            "crypto-technology",
+            "coin-development",
+            "token-development",
+            "infrastructure-initiatives"
+        ]
+    }
+}

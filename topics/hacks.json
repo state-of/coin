@@ -1,0 +1,28 @@
+{
+    "_comment" : "",
+    "topic": {
+        "attributes": {
+            "title": "Cryptocurrency Hacks",
+            "snapshot_date": "2018-02-01",
+            "permanent_id": "hacks",
+        },
+        "items": [
+            {
+                "title": "DAO",
+                "axis": {
+                    "x": 0.8,
+                    "y": 0.8
+                },
+                "id": "dao"
+            }
+        ],
+        "axis": {
+            "y": {
+                "label": "Amount Lost",
+            },
+            "x": {
+                "label": "Market Impact",
+            }
+        }
+    }
+}
