@@ -6,7 +6,25 @@
             "snapshot_date": "2018-02-01",
             "permanent_id": "scams",
         },
-        "items": [],
+        "items": [
+            {
+                "title": "Tether",
+                "description": "Tether (USDT) refuses to release a profesional audit of their books. Tether claims to cover millions of Tethers to be backed by an equal amount of USD.",
+                "axis": {
+                    "x": 0.1,
+                    "y": 0.1
+                },
+                "id": "tether"
+            },
+            {
+                "title": "BitConnect",
+                "axis": {
+                    "x": 0.5,
+                    "y": 1
+                },
+                "id": "bitconnect"
+            },
+        ],
         "axis": {
             "y": {
                 "label": "Amount Lost",

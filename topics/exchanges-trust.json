@@ -2,7 +2,7 @@
     "topic": {
         "attributes": {
             "title": "Exchanges",
-            "description": "Exchanges by trust. Trust is depended on support.",
+            "description": "Based on [top exchanges](https://coinmarketcap.com/exchanges/volume/24-hour/all/) ranked by daily BTC volume.",
             "snapshot_date": "2018-02-01",
             "permanent_id": "exchanges-trust",
             "chart_type": "bubble"
@@ -41,6 +41,7 @@
             {
                 "id": "binance",
                 "title": "Binance",
+                "description" : "Binance had to close off registration for new accounts as new customers overwhelmed their servers.",
                 "axis": {
                     "x": 0.1,
                     "y": 0.3
@@ -69,6 +70,26 @@
                 "id": "poloniex",
                 "title": "Poloniex",
                 "description": "Lost access to a US banking license",
+                "axis": {
+                    "x": 0.9,
+                    "y": 0.3
+                },
+                "size": 0.6
+            },
+            {
+                "id": "hitbtc",
+                "title": "HitBTC",
+                "description": "",
+                "axis": {
+                    "x": 0.9,
+                    "y": 0.3
+                },
+                "size": 0.6
+            },
+            {
+                "id": "bittrex",
+                "title": "Bittrex",
+                "description": "",
                 "axis": {
                     "x": 0.9,
                     "y": 0.3

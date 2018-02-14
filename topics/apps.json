@@ -1,0 +1,72 @@
+{
+    "topic": {
+        "attributes": {
+            "title": "Crypto Applications and Games",
+            "description": "",
+            "snapshot_date": "2018-02-01",
+            "permanent_id": "apps",
+            "chart_type": "bell"
+        },
+        "items": [
+            {
+                "id": "cryptokitty",
+                "title": "Crypto Kitty",
+                "description": "",
+                "axis": {
+                    "x": 0.5,
+                    "y": null
+                }
+            },
+            {
+                "title": "Spankchain",
+                "axis": {
+                    "x": 0.9,
+                    "y": 0.8
+                },
+                "id": "spankchain"
+            },
+            {
+                "title": "Virtue Poker",
+                "axis": {
+                    "x": 0.9,
+                    "y": 0.8
+                },
+                "id": "virtuepoker"
+            }
+        ],
+        "axis": {
+            "y": {
+                "label": "Monthly Users"
+            }
+        },
+        "states": [
+            {
+                "width": 0.2,
+                "label": "Release"
+            },
+            {
+                "width": 0.2,
+                "label": "Growth"
+            },
+            {
+                "width": 0.2,
+                "label": "Maturity"
+            },
+            {
+                "width": 0.2,
+                "label": "Saturation"
+            },
+            {
+                "width": 0.2,
+                "label": "Abondened"
+            }
+        ],
+    },
+    "events": [
+        {
+            "date": null,
+            "source": null,
+            "title": null
+        }
+    ]
+}

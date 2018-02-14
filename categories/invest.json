@@ -6,11 +6,13 @@
             "permanent_id": "invest"
         },
         "topics": [
-            "coin-invest",
-            "exchanges-quality",
+            "crypto-market",
+            "coin-adoption",
+            "exchanges-trust",
             "token-development",
             "token-ico",
             "coin-performance",
+            "services",
             "regulation"
         ]
     }

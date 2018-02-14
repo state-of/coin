@@ -18,13 +18,13 @@
                 "id": "blockchain"
             },
             {
-                "title": "Tokens (ERC-20)",
+                "title": "Tokens (Ethereum",
                 "description": "Ethereum based tokens go by the ERC-20 standard, and allow third parties to launch custom tokens on top of the Ethereum network. For technical details: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md",
                 "axis": {
                     "x": 0.3,
                     "y": null
                 },
-                "id": ""
+                "id": "tokens-ethereum"
             },
             {
                 "title": "Tokens (Stellar)",
@@ -33,7 +33,7 @@
                     "x": 0.1,
                     "y": null
                 },
-                "id": ""
+                "id": "token-stellar"
             },
             {
                 "title": "Smart Contracts",
@@ -42,16 +42,7 @@
                     "x": 0.17,
                     "y": null
                 },
-                "id": ""
-            },
-            {
-                "title": "Crypto Funds",
-                "description": "Instead of investing in single coins, crypto funds allow users to spread their risk by investing in a wide range of coins.",
-                "axis": {
-                    "x": 0.04,
-                    "y": null
-                },
-                "id": ""
+                "id": "smartcontracts"
             },
             {
                 "title": "dApps",
@@ -60,7 +51,7 @@
                     "x": 0.4,
                     "y": null
                 },
-                "id": ""
+                "id": "dapps"
             },
             {
                 "title": "Lightning Network",
@@ -69,8 +60,27 @@
                     "x": 0.22,
                     "y": null
                 },
-                "id": ""
+                "id": "lightning"
+            },
+            {
+                "title": "Proof of Work",
+                "description": "",
+                "axis": {
+                    "x": 0.82,
+                    "y": null
+                },
+                "id": "work"
+            },
+            {
+                "title": "Proof of Stake",
+                "description": "",
+                "axis": {
+                    "x": 0.1,
+                    "y": null
+                },
+                "id": "stake"
             }
+
         ],
         "axis": {
             "y": {

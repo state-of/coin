@@ -10,10 +10,34 @@
             {
                 "title": "DAO",
                 "axis": {
-                    "x": 0.8,
-                    "y": 0.8
+                    "x": 1,
+                    "y": 0.5
                 },
                 "id": "dao"
+            },
+            {
+                "title": "Mt Gox.",
+                "axis": {
+                    "x": 0.5,
+                    "y": 0
+                },
+                "id": "mtgox"
+            },
+            {
+                "title": "BitGrail",
+                "axis": {
+                    "x": 0.5,
+                    "y": 1
+                },
+                "id": "bitgrail"
+            },
+            {
+                "title": "Coincheck",
+                "axis": {
+                    "x": 0.5,
+                    "y": 1
+                },
+                "id": "coincheck"
             }
         ],
         "axis": {

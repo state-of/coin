@@ -2,7 +2,7 @@
     "topic": {
         "attributes": {
             "title": "Token Development",
-            "description": "State of crypto tokens given the point in their life cycle.",
+            "description": "",
             "snapshot_date": "2018-02-01",
             "permanent_id": "token-development",
             "chart_type": "bubble"
@@ -16,6 +16,33 @@
                     "y": 0.8
                 },
                 "id": "tezos"
+            },
+            {
+                "title": "Filecoin",
+                "description": " ",
+                "axis": {
+                    "x": 0.1,
+                    "y": 0.2
+                },
+                "id": "filecoin"
+            },
+            {
+                "title": "Gram",
+                "description": " ",
+                "axis": {
+                    "x": 0.1,
+                    "y": 0.2
+                },
+                "id": "gram"
+            },
+            {
+                "title": "BAT",
+                "description": "Basic Attention Token",
+                "axis": {
+                    "x": 0.6,
+                    "y": 0.2
+                },
+                "id": "bat"
             }
         ],
         "axis": {

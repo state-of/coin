@@ -19,7 +19,7 @@ We are open to:
 ## Data structure
 The structure is setup as following: categories represent a broader subject, referencing to multiple relevant topics. Each topic contains data to visualize the current state of that topic.
 
-A good example of a topic is: [topics/exchanges-quality.json](topics/exchanges-quality.json). That topic is referenced by the category [categories/invest.json](categories/invest.json).
+A good example of a topic is: [topics/exchanges-trust.json](topics/exchanges-trust.json). That topic is referenced by the category [categories/invest.json](categories/invest.json).
 
 It's best to just browse a bit through the repository to get a quick understanding.
 

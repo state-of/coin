@@ -1,0 +1,85 @@
+{
+    "topic": {
+        "attributes": {
+            "title": "Crypto Hype Cycle",
+            "description": "The Crypto Hype Cycle with various trending topics.",
+            "snapshot_date": "2018-02-01",
+            "permanent_id": "crypto-market",
+            "chart_type": "hype"
+        },
+        "items": [
+            {
+                "title": "STO",
+                "description": "",
+                "axis": {
+                    "x": 0.1,
+                    "y": null
+                },
+                "id": "sto"
+            },
+            {
+                "title": "Crypto Funds",
+                "description": "Instead of investing in single coins, crypto funds allow users to spread their risk by investing in a wide range of coins.",
+                "axis": {
+                    "x": 0.2,
+                    "y": null
+                },
+                "id": "cryptofunds"
+            },
+            {
+                "title": "ICO",
+                "description": "",
+                "axis": {
+                    "x": 0.6,
+                    "y": null
+                },
+                "id": "ico"
+            },
+            {
+                "title": "Hardware Wallet",
+                "description": "",
+                "axis": {
+                    "x": 0.4,
+                    "y": null
+                },
+                "id": "wallet"
+            },
+            {
+                "title": "Decentralized exchanges",
+                "description": "",
+                "axis": {
+                    "x": 0.2,
+                    "y": null
+                },
+                "id": "decentralized"
+            }
+        ],
+        "axis": {
+            "y": {
+                "label": "Expectation"
+            }
+        },
+        "states": [
+            {
+                "width": 0.15,
+                "label": "Innovation trigger"
+            },
+            {
+                "width": 0.13,
+                "label": "Peak expectation"
+            },
+            {
+                "width": 0.2,
+                "label": "Disillusionment"
+            },
+            {
+                "width": 0.22,
+                "label": "Enlightenment"
+            },
+            {
+                "width": 0.3,
+                "label": "Productivity plateau"
+            }
+        ]
+    }
+}
