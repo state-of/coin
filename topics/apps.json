@@ -1,11 +1,11 @@
 {
     "topic": {
         "attributes": {
-            "title": "Crypto Applications and Games",
-            "description": "",
+            "title": "Blockchain applications and Games",
+            "description": "On overview of applications and games based on the blockchain.",
             "snapshot_date": "2018-02-01",
             "permanent_id": "apps",
-            "chart_type": "bell"
+            "chart_type": "bubble"
         },
         "items": [
             {
@@ -14,13 +14,13 @@
                 "description": "",
                 "axis": {
                     "x": 0.5,
-                    "y": null
+                    "y": 0.2
                 }
             },
             {
                 "title": "Spankchain",
                 "axis": {
-                    "x": 0.9,
+                    "x": 0.4,
                     "y": 0.8
                 },
                 "id": "spankchain"
@@ -29,9 +29,36 @@
                 "title": "Virtue Poker",
                 "axis": {
                     "x": 0.9,
-                    "y": 0.8
+                    "y": 0.1
                 },
                 "id": "virtuepoker"
+            },
+            {
+                "title": "EtherWarfare",
+                "description": "https://etherwarfare.com/",
+                "axis": {
+                    "x": 0.9,
+                    "y": 0.5
+                },
+                "id": "etherwarfare"
+            },
+            {
+                "title": "Etherplay",
+                "description": "http://etherplay.io/",
+                "axis": {
+                    "x": 0.9,
+                    "y": 0.2
+                },
+                "id": "etherplay"
+            },
+            {
+                "title": "OpenBazaar",
+                "description": "https://www.openbazaar.org/",
+                "axis": {
+                    "x": 0.3,
+                    "y": 0.8
+                },
+                "id": "openbazaar"
             }
         ],
         "axis": {
