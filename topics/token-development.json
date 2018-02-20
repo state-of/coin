@@ -146,7 +146,7 @@
             },
             {
                 "width": 0.2,
-                "label": "Development",
+                "label": "Development"
             },
             {
                 "width": 0.2,
@@ -155,8 +155,8 @@
             {
                 "width": 0.2,
                 "label": "?",
-                "description": "Stumbled upon issues while developing temporarily halting or even stopping the project."
-            },
+                "description": "Project stumbled upon issues while developing temporarily halting or even stopping the project."
+            }
         ],
         "size": {
             "label": "Total raised"
