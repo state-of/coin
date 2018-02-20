@@ -3,7 +3,7 @@
     "topic": {
         "attributes": {
             "title": "Regulation by Country.",
-            "description": "",
+            "description": "Cryptocurrency regulation by country (G8+) measured against crypto regulation and broader stance of the government.",
             "snapshot_date": "2018-02-01",
             "permanent_id": "regulation",
             "chart_type": "bubble"
@@ -12,41 +12,90 @@
             {
                 "title": "Switserland",
                 "axis": {
-                    "x": 0.8,
-                    "y": 0.8
+                    "x": 0.16544389524799358,
+                    "y": 0.8052362433806518
                 },
                 "id": "ch"
             },
             {
                 "title": "United States",
                 "axis": {
-                    "x": 0.8,
-                    "y": 0.8
+                    "x": 0.38004405131131314,
+                    "y": 0.8339718807612532
                 },
                 "id": "us"
             },
             {
                 "title": "China",
                 "axis": {
-                    "x": 0.8,
-                    "y": 0.8
+                    "x": 0.90242112579944,
+                    "y": 0.81800765991211
                 },
                 "id": "cn"
             },
             {
                 "title": "Japan",
                 "axis": {
-                    "x": 0.8,
-                    "y": 0.8
+                    "x": 0.7890682190655269,
+                    "y": 0.5881225685540736
                 },
-                "id": "ch"
+                "id": "jp"
+            },
+            {
+                "title": "South Korea",
+                "description": "Plans on banning.",
+                "axis": {
+                    "x": 0.7652237969607788,
+                    "y": 0.38058741597351253
+                },
+                "id": "kr"
+            },
+            {
+                "title": "Canada",
+                "axis": {
+                    "x": 0.3506970178150335,
+                    "y": 0.33269470584385685
+                },
+                "id": "ca"
+            },
+            {
+                "title": "England",
+                "axis": {
+                    "x": 0.5176081998068254,
+                    "y": 0.4252873089020125
+                },
+                "id": "gb"
+            },
+            {
+                "title": "Thailand",
+                "axis": {
+                    "x": 0.6881878218584794,
+                    "y": 0.29757337754690416
+                },
+                "id": "th"
+            },
+            {
+                "title": "Germany",
+                "axis": {
+                    "x": 0.3433602350918327,
+                    "y": 0.4987227826970738
+                },
+                "id": "de"
+            },
+            {
+                "title": "Russia",
+                "axis": {
+                    "x": 0.8092442985069365,
+                    "y": 0.2528734846184042
+                },
+                "id": "ru"
             }
         ],
         "axis": {
             "y": {
                 "label": "Regulation",
-                "more": "Fierce",
-                "less": "Little"
+                "more": "Increasing",
+                "less": "Limited"
             },
             "x": {
                 "label": "Stance",

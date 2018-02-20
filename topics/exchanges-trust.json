@@ -2,7 +2,7 @@
     "topic": {
         "attributes": {
             "title": "Exchanges",
-            "description": "Based on [top exchanges](https://coinmarketcap.com/exchanges/volume/24-hour/all/) ranked by daily BTC volume.",
+            "description": "A visualisation of crypto exchanges by trust vs. support responsiveness. Based on [top exchanges](https://coinmarketcap.com/exchanges/volume/24-hour/all/) by daily BTC volume.",
             "snapshot_date": "2018-02-01",
             "permanent_id": "exchanges-trust",
             "chart_type": "bubble"
@@ -11,90 +11,92 @@
             {
                 "id": "coinbase",
                 "title": "Coinbase / GDAX",
-                "description": "Leading US exchange. Continues to have issues with timely support.",
+                "description": "Leading US exchange. Continues to have issues with timely support.\n\n* https://coinbase.com",
                 "axis": {
-                    "x": 0.2,
-                    "y": 0.8
+                    "x": 0.16911227037684007,
+                    "y": 0.9010217101485641
                 },
-                "size": 1.7
+                "size": 3
             },
             {
                 "id": "kraken",
                 "title": "Kraken",
-                "description" : "",
+                "description": "\n\n* https://kraken.com",
                 "axis": {
-                    "x": 0.7,
-                    "y": 0.8
+                    "x": 0.6716801500114242,
+                    "y": 0.920178801925094
                 },
-                "size": 1.3
+                "size": 2.5
             },
             {
                 "id": "bitfinex",
                 "title": "Bitfinex",
-                "description": "Lost access to a US banking license",
+                "description": "Lost access to a US banking license.\n\n* https://bitfinex.com",
                 "axis": {
-                    "x": 0.8,
-                    "y": 0.3
+                    "x": 0.216801179517352,
+                    "y": 0.38697317617910876
                 },
-                "size": 1
+                "size": 6
             },
             {
                 "id": "binance",
                 "title": "Binance",
-                "description" : "Binance had to close off registration for new accounts as new customers overwhelmed their servers.",
+                "description": "Binance had to close off registration for new accounts as new customers overwhelmed their servers.\n\n* https://bitfinex.com",
                 "axis": {
-                    "x": 0.1,
-                    "y": 0.3
+                    "x": 0.4424064609672109,
+                    "y": 0.8084291246202258
                 },
-                "size": 1.1
+                "size": 0.5
             },
             {
                 "id": "bitstamp",
                 "title": "Bitstamp",
+                "description": "\n\n* https://bitstamp.com",
                 "axis": {
-                    "x": 0.9,
-                    "y": 0.9
+                    "x": 0.38554659777182887,
+                    "y": 0.620051094337746
                 },
-                "size": 0.6
+                "size": 1
             },
             {
                 "id": "gemini",
                 "title": "Gemini",
+                "description": "\n\n* https://gemini.com",
                 "axis": {
-                    "x": 0.9,
-                    "y": 0.9
+                    "x": 0.2479824168108088,
+                    "y": 0.6168582492404514
                 },
-                "size": 0.6
+                "size": 0.5
             },
             {
                 "id": "poloniex",
                 "title": "Poloniex",
-                "description": "Lost access to a US banking license",
+                "description": "Lost access to a US banking license.\n\n* https://poloniex.com",
                 "axis": {
-                    "x": 0.9,
-                    "y": 0.3
+                    "x": 0.5377842792482349,
+                    "y": 0.4029374299225984
                 },
-                "size": 0.6
+                "size": 0.5
             },
             {
                 "id": "hitbtc",
                 "title": "HitBTC",
-                "description": "",
+                "description": "\n\n* https://hitbtc.com",
                 "axis": {
-                    "x": 0.9,
-                    "y": 0.3
+                    "x": 0.6148202543505343,
+                    "y": 0.7126436869303385
                 },
-                "size": 0.6
+                "size": 1.2
             },
             {
                 "id": "bittrex",
                 "title": "Bittrex",
-                "description": "",
+                "description": "\n\n* https://bittrex.com",
                 "axis": {
-                    "x": 0.9,
-                    "y": 0.3
+                    "x": 0.5066031068857938,
+                    "y": 0.6168582492404514
                 },
-                "size": 0.6
+                "size": 1
             }
         ],
         "axis": {
@@ -104,9 +106,9 @@
                 "less": "Low"
             },
             "x": {
-                "label": "Cryptocurrencies",
-                "more": "Majority",
-                "less": "A few"
+                "label": "Support",
+                "more": "Responsive",
+                "less": "Slow"
             }
         },
         "states": [

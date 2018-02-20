@@ -1,0 +1,12 @@
+{
+    "category": {
+        "attributes": {
+            "title": "Projects",
+            "description": "",
+            "permanent_id": "projects"
+        },
+        "topics": [
+            "token-development"
+        ]
+    }
+}

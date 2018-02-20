@@ -1,19 +1,19 @@
 {
     "topic": {
         "attributes": {
-            "title": "Cryptocurrency Development",
-            "description": "State of crypto coins listed on [CRIX](http://crix.hu-berlin.de/) based on development activity vs. innovation.",
+            "title": "Coins by Utility",
+            "description": "These cryptotechnology coin projects are grouped by proposed utility versus market expectation.",
             "snapshot_date": "2018-02-01",
-            "permanent_id": "coin-development",
-            "chart_type": "bubble"
+            "permanent_id": "coin-utility",
+            "chart_type": "market"
         },
         "items": [
             {
                 "title": "Bitcoin",
                 "description": "Bitcoin (BTC)\n\nhttps://bitcoin.org/en/",
                 "axis": {
-                    "x": 0.7780631207405253,
-                    "y": 0.9521072811550563
+                    "x": 0.8034483032226563,
+                    "y": 0.7689655151367187
                 },
                 "id": "btc"
             },
@@ -21,8 +21,8 @@
                 "title": "Ethereum",
                 "description": "Ethereum (ETH)\n\nhttps://www.ethereum.org/",
                 "axis": {
-                    "x": 0.8844460994639295,
-                    "y": 0.8084291246202255
+                    "x": 0.28448275756835937,
+                    "y": 0.8620689697265624
                 },
                 "id": "eth"
             },
@@ -30,8 +30,8 @@
                 "title": "Litecoin",
                 "description": "Litecoin (LTC)\n\nhttps://litecoin.org/",
                 "axis": {
-                    "x": 0.1415994197764295,
-                    "y": 0.41570881031177653
+                    "x": 0.8189655151367188,
+                    "y": 0.32068963623046876
                 },
                 "id": "ltc"
             },
@@ -39,8 +39,8 @@
                 "title": "Monero",
                 "description": "Monero (XMR) is privacy focused...\n\nhttp://monero.org/",
                 "axis": {
-                    "x": 0.726705802755153,
-                    "y": 0.5274585017451532
+                    "x": 0.6586206665039063,
+                    "y": 0.48620690917968745
                 },
                 "id": "xmr"
             },
@@ -48,8 +48,8 @@
                 "title": "Bitcoin Cash",
                 "description": "Bitcoin Cash (BCH) is a fork from BTC.\n\nhttps://www.bitcoincash.org/",
                 "axis": {
-                    "x": 0.3873807866522606,
-                    "y": 0.5402298821343314
+                    "x": 0.9172413940429688,
+                    "y": 0.16551721191406255
                 },
                 "id": "bch"
             },
@@ -57,8 +57,8 @@
                 "title": "zCash",
                 "description": "zCash (ZEC)\n\nhttps://z.cash/",
                 "axis": {
-                    "x": 0.5634629269863697,
-                    "y": 0.31673052752459485
+                    "x": 0.5655172119140625,
+                    "y": 0.3379310302734375
                 },
                 "id": "zec"
             },
@@ -66,8 +66,8 @@
                 "title": "Ripple",
                 "description": "Ripple (XRP)\n\nhttps://ripple.com/",
                 "axis": {
-                    "x": 0.6918562219498006,
-                    "y": 0.36143041540075216
+                    "x": 0.8931034545898437,
+                    "y": 0.6482758483886719
                 },
                 "id": "xrp"
             },
@@ -75,8 +75,8 @@
                 "title": "Cardano",
                 "description": "Cardano (ADA)\n\nhttps://www.cardanohub.org",
                 "axis": {
-                    "x": 0.07740278852746842,
-                    "y": 0.24010218867549182
+                    "x": 0.43448275756835936,
+                    "y": 0.21034484863281255
                 },
                 "id": "ada"
             },
@@ -84,56 +84,64 @@
                 "title": "Stellar Lumens",
                 "description": "Stellar Lumens (XLM)\n\nhttps://www.stellar.org/",
                 "axis": {
-                    "x": 0.6881878142661236,
-                    "y": 0.2656449494538483
+                    "x": 0.8793103637695312,
+                    "y": 0.4931034545898437
                 },
                 "id": "xlm"
-            },
-            {
-                "title": "NEO",
-                "description": "NEO (NEO)\n\nhttps://neo.org/",
-                "axis": {
-                    "x": 0.13059427788917055,
-                    "y": 0.21136655454282394
-                },
-                "id": "neo"
             },
             {
                 "title": "Iota",
                 "description": "Iota (IOT)\n\nhttps://iota.org/",
                 "axis": {
-                    "x": 0.29567130880152925,
-                    "y": 0.2848020200376157
+                    "x": 0.40517242431640627,
+                    "y": 0.5965517272949219
                 },
                 "id": "iot"
             },
             {
-                "title": "EOS",
-                "description": "EOS (EOS)\n\nhttps://eos.io/",
+                "title": "NEO",
+                "description": "NEO (NEO)\n\nhttps://neo.org/",
                 "axis": {
-                    "x": 0.26632427459067487,
-                    "y": 0.11877396195023138
+                    "x": 0.27,
+                    "y": 0.36
                 },
-                "id": "eos"
+                "id": "neo"
+            },
+            {
+                "title": "DASH",
+                "axis": {
+                    "x": 0.85,
+                    "y": 0.2
+                },
+                "id": "dash"
             }
         ],
         "axis": {
             "y": {
-                "label": "Development activity"
-            },
-            "x": {
-                "label": "Technical innovation"
+                "label": "Expectation"
             }
         },
         "states": [
-        ],
-        "size": []
-    },
-    "events": [
-        {
-            "date": null,
-            "source": null,
-            "title": null
-        }
-    ]
+            {
+                "width": 0.25,
+                "label": "Function",
+                "description": "Crypto projects with the main goal is to develop a certain function."
+            },
+            {
+                "width": 0.25,
+                "label": "Smart Contract",
+                "description": "Crypto projects with the main goal is to develop a smart contract platform."
+            },
+            {
+                "width": 0.25,
+                "label": "Privacy",
+                "description": "Crypto projects focused on privacy."
+            },
+            {
+                "width": 0.25,
+                "label": "Payments",
+                "description": "Crypto projects focused on being a payment channel."
+            }
+        ]
+    }
 }

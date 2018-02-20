@@ -3,43 +3,84 @@
     "topic": {
         "attributes": {
             "title": "Cryptocurrency Hacks",
+            "description": "An overview of major cryptocurrency hacks.",
             "snapshot_date": "2018-02-01",
             "permanent_id": "hacks",
         },
         "items": [
-            {
-                "title": "DAO",
-                "axis": {
-                    "x": 1,
-                    "y": 0.5
-                },
-                "id": "dao"
-            },
-            {
-                "title": "Mt Gox.",
-                "axis": {
-                    "x": 0.5,
-                    "y": 0
-                },
-                "id": "mtgox"
-            },
-            {
-                "title": "BitGrail",
-                "axis": {
-                    "x": 0.5,
-                    "y": 1
-                },
-                "id": "bitgrail"
-            },
-            {
-                "title": "Coincheck",
-                "axis": {
-                    "x": 0.5,
-                    "y": 1
-                },
-                "id": "coincheck"
-            }
-        ],
+    {
+        "title": "DAO",
+        "description": "12.000.000 ETH was stolen caused by a ICO contract hack. A hard fork restored the money stolen.\n\n* https://blog.ethereum.org/2016/07/20/hard-fork-completed/\n* https://en.wikipedia.org/wiki/Decentralized_autonomous_organization",
+        "axis": {
+            "x": 0.7890682139295213,
+            "y": 0.5274585017451532
+        },
+        "id": "dao"
+    },
+    {
+        "title": "Mt Gox.",
+        "description": "850,000 BTC was stolen or missing.\n\nhttps://en.wikipedia.org/wiki/Mt._Gox",
+        "axis": {
+            "x": 0.7762288844331782,
+            "y": 0.8371647446243851
+        },
+        "id": "mtgox"
+    },
+    {
+        "title": "BitGrail",
+        "description": "17.000.000 XRB (Nano) was stolen.",
+        "axis": {
+            "x": 0.07190021758383892,
+            "y": 0.39335886637369777
+        },
+        "id": "bitgrail"
+    },
+    {
+        "title": "Coincheck",
+        "description": "500.000.000 NEM was stolen.",
+        "axis": {
+            "x": 0.19845928435629986,
+            "y": 0.3199233443648726
+        },
+        "id": "coincheck"
+    },
+    {
+        "title": "Bitfinex",
+        "description": "120,000 BTC was stolen.\n\nhttps://en.wikipedia.org/wiki/Bitfinex_hack",
+        "axis": {
+            "x": 0.16727806253636138,
+            "y": 0.7062579684787325
+        },
+        "id": "bitfinex"
+    },
+    {
+        "title": "Bitstamp",
+        "description": "19,000 BTC was stolen.\n\nhttps://en.wikipedia.org/wiki/Bitstamp",
+        "axis": {
+            "x": 0.1544387330400183,
+            "y": 0.1251596521448205
+        },
+        "id": "bitstamp"
+    },
+    {
+        "title": "NiceHash",
+        "description": "$60 million worth of BTC was stolen.",
+        "axis": {
+            "x": 0.5084372662483377,
+            "y": 0.5338441919397423
+        },
+        "id": "nicehash"
+    },
+    {
+        "title": "Tether ",
+        "description": "$31 million of USTD was taken from their primary wallet.",
+        "axis": {
+            "x": 0.1,
+            "y": 0.3
+        },
+        "id": "tether"
+    }
+],
         "axis": {
             "y": {
                 "label": "Amount Lost",

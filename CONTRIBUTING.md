@@ -16,6 +16,12 @@ We are open to:
 ## Ideas
 [WIP] ideas of topics and categories.
 
+## Beginners
+If you have little to no experience with github or git, contributing might look a bit daunting. Luckily you can make changes completely from the browser. This introduction [guide](https://guides.github.com/activities/forking/) will help you get started with [forking](https://guides.github.com/activities/forking/), [edittng](https://guides.github.com/activities/hello-world/#commit) and creating a [pull request](https://guides.github.com/activities/hello-world/#merge).
+
+### Chart
+To reposition items in the chart, click the menu dots above the chart. Select `Edit Mode`. Drag the dots to a new position. Open the browser developer console, and copy the data and replace items[{...}] with this data.
+
 ## Data structure
 The structure is setup as following: categories represent a broader subject, referencing to multiple relevant topics. Each topic contains data to visualize the current state of that topic.
 
@@ -24,13 +30,12 @@ A good example of a topic is: [topics/exchanges-trust.json](topics/exchanges-tru
 It's best to just browse a bit through the repository to get a quick understanding.
 
 ## Data Format
-Look at [topics/format-template.json](topics/format-template.json) for a commented template of the data format.
+JSON is hard to format by hand, especially combining with markdown. The next version will have not a JSON config, but a Javascript config, less restrictive (allows inline comments), better formatting tools, and would allow for interactive data. Think of pulling in the amount raised in an ICO based on the current price using a Javascript function.
 
-JSON is hard to format by hand, especially combining with markdown. I'm working on an basic editor, that outputs the correct format.*
 
 ### Chart types
 Initially build around the hype cycle curve, it now supports a bell and bubble chart type as well. Bubble should become the default:
-![Example](https://cdn-images-1.medium.com/max/800/1*dn274lyUoylpBUFJSSDldg.gif")
+![Example](https://cdn-images-1.medium.com/max/800/1*dn274lyUoylpBUFJSSDldg.gif)
 
 1. 'bubble' plots a X by Y graph without a curve
 2. 'bell' contains several states and each item sits on a bell curve
@@ -46,14 +51,14 @@ Attributes of the chart.
 
 ### Items
 List of the items usually as entities and their attributes to plot.
-* id
+* id [deprecate]
 * title
 * description
 * axis
     * x [0.0, 1.0]
     * y [0.0, 1.0]
 * state
-* size
+* size [optional]
 
 ### Axis
 Naming of the axis, and its directional meaning.
@@ -66,10 +71,10 @@ Naming of the axis, and its directional meaning.
     * negative
     * positive
 
-### States
+### States [optional]
 The states the chart has. Label and width.
 
-### Size
+### Size [optional]
 Determines the size of the bubble.
 * title
 * value
@@ -96,4 +101,4 @@ A commit should be followed up by a merge requests which starts a discussion thr
 # Future
 Looking for a way to make snapshots of the data to allow moving forward/backward into time.
 Easy tool to create and edit a great chart, and output JSON.
-Optionally looking at changing .json to a .md format.
+Looking at changing .json to a .js format.

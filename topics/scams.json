@@ -3,13 +3,14 @@
     "topic": {
         "attributes": {
             "title": "Crypto Scams",
+            "description": "",
             "snapshot_date": "2018-02-01",
             "permanent_id": "scams",
         },
         "items": [
             {
-                "title": "Tether",
-                "description": "Tether (USDT) refuses to release a profesional audit of their books. Tether claims to cover millions of Tethers to be backed by an equal amount of USD.",
+                "title": "Tether*",
+                "description": "Tether might be a possible scam. Rumors about Tether are caused by the failure to release a profesional audit of their books. Tether claims to cover hundreds millions of Tethers to be backed by an equal amount of USD.",
                 "axis": {
                     "x": 0.1,
                     "y": 0.1
@@ -18,12 +19,40 @@
             },
             {
                 "title": "BitConnect",
+                "description": "Ponzi-scheme.",
                 "axis": {
-                    "x": 0.5,
-                    "y": 1
+                    "x": 0.5726339137300532,
+                    "y": 0.703065123381438
                 },
                 "id": "bitconnect"
             },
+            {
+                "title": "Pump and dump",
+                "description": "General pump and dump schemes, especially for penny tokens where marketing pushes the price up, only to be abonded at the higher price by early pump buyers.\n\n==Examples",
+                "axis": {
+                    "x": 0.7615553835605053,
+                    "y": 0.865900378757053
+                },
+                "id": "pump-and-dump"
+            },
+            {
+                "title": "Hardforks",
+                "description": "Examples:\n* Bitcoin Gold",
+                "axis": {
+                    "x": 0.7560528045004987,
+                    "y": 0.11877396195023149
+                },
+                "id": "hardfork"
+            },
+            {
+                "title": "block-chain.info",
+                "description": "Bitcoin Phishing Scam (note the dash in the domain) which bagged $50 Million Over 3 Years",
+                "axis": {
+                    "x": 0.10124724367831615,
+                    "y": 0.4093231201171875
+                },
+                "id": "block-chain"
+            }
         ],
         "axis": {
             "y": {

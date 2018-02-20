@@ -2,17 +2,14 @@
     "category": {
         "attributes": {
             "title": "Investing in Cryptocurrencies",
-            "description": "Hello World",
-            "permanent_id": "invest"
+            "description": "",
+            "permanent_id": "investing"
         },
         "topics": [
             "crypto-market",
             "coin-adoption",
             "exchanges-trust",
             "token-development",
-            "token-ico",
-            "coin-performance",
-            "services",
             "regulation"
         ]
     }

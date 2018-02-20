@@ -1,8 +1,8 @@
 {
     "topic": {
         "attributes": {
-            "title": "Token Development",
-            "description": "",
+            "title": "Token Project Development",
+            "description": "The current state of crypto project development pre and post token ICO.",
             "snapshot_date": "2018-02-01",
             "permanent_id": "token-development",
             "chart_type": "bubble"
@@ -10,39 +10,124 @@
         "items": [
             {
                 "title": "Tezos",
-                "description": " ",
+                "description": "https://www.tezos.com/",
                 "axis": {
-                    "x": 1,
-                    "y": 0.8
+                    "x": 0.8586206665039062,
+                    "y": 0.25172412109375
                 },
-                "id": "tezos"
+                "id": "tezos",
+                "size": 2
             },
             {
                 "title": "Filecoin",
-                "description": " ",
+                "description": "https://filecoin.io/",
                 "axis": {
-                    "x": 0.1,
-                    "y": 0.2
+                    "x": 0.4844827575683594,
+                    "y": 0.6827586059570312
                 },
-                "id": "filecoin"
+                "id": "filecoin",
+                "size": 1.5
             },
             {
                 "title": "Gram",
-                "description": " ",
+                "description": "Announced from the makers of Telegram\n\nhttps://telegram.org/",
                 "axis": {
-                    "x": 0.1,
-                    "y": 0.2
+                    "x": 0.2,
+                    "y": 0.9
                 },
-                "id": "gram"
+                "id": "gram",
+                "size": 2
             },
             {
                 "title": "BAT",
-                "description": "Basic Attention Token",
+                "description": "Basic Attention Token\n\nhttps://basicattentiontoken.org/",
                 "axis": {
-                    "x": 0.6,
-                    "y": 0.2
+                    "x": 0.5120689697265625,
+                    "y": 0.5931034545898437
                 },
                 "id": "bat"
+            },
+            {
+                "title": "Ripple",
+                "description": "Ripple (XRP)\n\nhttps://ripple.com/",
+                "axis": {
+                    "x": 0.5310344848632812,
+                    "y": 0.7275862121582031
+                },
+                "id": "xrp"
+            },
+            {
+                "title": "Cardano",
+                "description": "Cardano (ADA)\n\nhttps://www.cardanohub.org",
+                "axis": {
+                    "x": 0.41896551513672,
+                    "y": 0.89655169677734
+                },
+                "id": "ada"
+            },
+            {
+                "title": "Iota",
+                "description": "Iota (IOT)\n\nhttps://iota.org/",
+                "axis": {
+                    "x": 0.4620689697265625,
+                    "y": 0.34137933349609373
+                },
+                "id": "iot"
+            },
+            {
+                "title": "EOS",
+                "description": "EOS (EOS)\n\nhttps://eos.io/",
+                "axis": {
+                    "x": 0.56379309082031,
+                    "y": 0.63793103027344
+                },
+                "id": "eos",
+                "size": 1.5
+            },
+            {
+                "title": "Tron",
+                "description": "Tron (TRX)\n\nhttps://tron.network",
+                "axis": {
+                    "x": 0.54827587890625,
+                    "y": 0.94137931060791
+                },
+                "id": "tron"
+            },
+            {
+                "title": "0x",
+                "description": "0x (ZRX)\n\nhttps://0xproject.com/",
+                "axis": {
+                    "x": 0.54827587890625,
+                    "y": 0.3586206665039062
+                },
+                "id": "0x"
+            },
+            {
+                "title": "Golem",
+                "description": "Golem (GNT)\n\nhttps://golem.network/",
+                "axis": {
+                    "x": 0.45344827270507815,
+                    "y": 0.08965515136718749
+                },
+                "id": "golem"
+            },
+            {
+                "title": "Augur",
+                "description": "Augur \n\nhttps://www.augur.net/",
+                "axis": {
+                    "x": 0.5310344848632812,
+                    "y": 0.14827587890624994
+                },
+                "id": "Augur"
+            },
+            {
+                "title": "Bankera",
+                "description": "Bankera \n\nhttps://bankera.com/",
+                "axis": {
+                    "x": 0.22,
+                    "y": 0.3
+                },
+                "id": "Bankera"
             }
         ],
         "axis": {
@@ -61,18 +146,21 @@
             },
             {
                 "width": 0.2,
-                "label": "Development"
-            },
-            {
-                "width": 0.2,
-                "label": "Deathpool"
+                "label": "Development",
             },
             {
                 "width": 0.2,
                 "label": "Launched"
-            }
+            },
+            {
+                "width": 0.2,
+                "label": "?",
+                "description": "Stumbled upon issues while developing temporarily halting or even stopping the project."
+            },
         ],
-        "size": []
+        "size": {
+            "label": "Total raised"
+        }
     },
     "events": [
         {

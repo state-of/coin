@@ -1,19 +1,20 @@
 {
     "topic": {
         "attributes": {
-            "title": "Cryptocurrency Development",
-            "description": "State of crypto coins listed on [CRIX](http://crix.hu-berlin.de/) based on development activity vs. innovation.",
+            "title": "Coin Hype",
+            "description": "Visualisation of the emerging cryptotechnology hype cycle, which classifyes coins by hype state. Coin selection based on the [CRIX](http://crix.hu-berlin.de/) list.",
             "snapshot_date": "2018-02-01",
-            "permanent_id": "coin-development",
-            "chart_type": "bubble"
+            "permanent_id": "coin-hype",
+            "chart_type": "hype"
         },
-        "items": [
+        "items":
+        [
             {
                 "title": "Bitcoin",
                 "description": "Bitcoin (BTC)\n\nhttps://bitcoin.org/en/",
                 "axis": {
-                    "x": 0.7780631207405253,
-                    "y": 0.9521072811550563
+                    "x": 0.80344829457181,
+                    "y": null
                 },
                 "id": "btc"
             },
@@ -21,8 +22,8 @@
                 "title": "Ethereum",
                 "description": "Ethereum (ETH)\n\nhttps://www.ethereum.org/",
                 "axis": {
-                    "x": 0.8844460994639295,
-                    "y": 0.8084291246202255
+                    "x": 0.73275859730618,
+                    "y": null
                 },
                 "id": "eth"
             },
@@ -30,8 +31,8 @@
                 "title": "Litecoin",
                 "description": "Litecoin (LTC)\n\nhttps://litecoin.org/",
                 "axis": {
-                    "x": 0.1415994197764295,
-                    "y": 0.41570881031177653
+                    "x": 0.66034483998196,
+                    "y": null
                 },
                 "id": "ltc"
             },
@@ -39,8 +40,8 @@
                 "title": "Monero",
                 "description": "Monero (XMR) is privacy focused...\n\nhttp://monero.org/",
                 "axis": {
-                    "x": 0.726705802755153,
-                    "y": 0.5274585017451532
+                    "x": 0.6224138147527765,
+                    "y": null
                 },
                 "id": "xmr"
             },
@@ -48,8 +49,8 @@
                 "title": "Bitcoin Cash",
                 "description": "Bitcoin Cash (BCH) is a fork from BTC.\n\nhttps://www.bitcoincash.org/",
                 "axis": {
-                    "x": 0.3873807866522606,
-                    "y": 0.5402298821343314
+                    "x": 0.68965514271634,
+                    "y": null
                 },
                 "id": "bch"
             },
@@ -57,8 +58,8 @@
                 "title": "zCash",
                 "description": "zCash (ZEC)\n\nhttps://z.cash/",
                 "axis": {
-                    "x": 0.5634629269863697,
-                    "y": 0.31673052752459485
+                    "x": 0.30862069341488585,
+                    "y": null
                 },
                 "id": "zec"
             },
@@ -66,8 +67,8 @@
                 "title": "Ripple",
                 "description": "Ripple (XRP)\n\nhttps://ripple.com/",
                 "axis": {
-                    "x": 0.6918562219498006,
-                    "y": 0.36143041540075216
+                    "x": 0.55517241566556,
+                    "y": null
                 },
                 "id": "xrp"
             },
@@ -75,8 +76,8 @@
                 "title": "Cardano",
                 "description": "Cardano (ADA)\n\nhttps://www.cardanohub.org",
                 "axis": {
-                    "x": 0.07740278852746842,
-                    "y": 0.24010218867549182
+                    "x": 0.46034481450863585,
+                    "y": null
                 },
                 "id": "ada"
             },
@@ -84,8 +85,8 @@
                 "title": "Stellar Lumens",
                 "description": "Stellar Lumens (XLM)\n\nhttps://www.stellar.org/",
                 "axis": {
-                    "x": 0.6881878142661236,
-                    "y": 0.2656449494538483
+                    "x": 0.52068962757962,
+                    "y": null
                 },
                 "id": "xlm"
             },
@@ -93,8 +94,8 @@
                 "title": "NEO",
                 "description": "NEO (NEO)\n\nhttps://neo.org/",
                 "axis": {
-                    "x": 0.13059427788917055,
-                    "y": 0.21136655454282394
+                    "x": 0.3448275720769952,
+                    "y": null
                 },
                 "id": "neo"
             },
@@ -102,30 +103,43 @@
                 "title": "Iota",
                 "description": "Iota (IOT)\n\nhttps://iota.org/",
                 "axis": {
-                    "x": 0.29567130880152925,
-                    "y": 0.2848020200376157
+                    "x": 0.39827584478207334,
+                    "y": null
                 },
                 "id": "iot"
-            },
-            {
-                "title": "EOS",
-                "description": "EOS (EOS)\n\nhttps://eos.io/",
-                "axis": {
-                    "x": 0.26632427459067487,
-                    "y": 0.11877396195023138
-                },
-                "id": "eos"
             }
         ],
         "axis": {
             "y": {
-                "label": "Development activity"
-            },
-            "x": {
-                "label": "Technical innovation"
+                "label": "Expectation"
             }
         },
         "states": [
+            {
+                "width": 0.15,
+                "label": "Innovation trigger",
+                "description": "A potential technology breakthrough kicks things off."
+            },
+            {
+                "width": 0.13,
+                "label": "Peak expectation",
+                "description": "Early publicity produces a number of success stories — often accompanied by scores of failures."
+            },
+            {
+                "width": 0.2,
+                "label": "Disillusionment",
+                "description": "Interest wanes as experiments and implementations fail to deliver. Producers of the technology shake out or fail."
+            },
+            {
+                "width": 0.22,
+                "label": "Enlightenment",
+                "description": "More instances of how the technology can benefit the market start to crystallize."
+            },
+            {
+                "width": 0.3,
+                "label": "Productivity plateau",
+                "description": "Mainstream adoption starts to take off. The technology's broad market applicability and relevance are clearly paying off."
+            }
         ],
         "size": []
     },

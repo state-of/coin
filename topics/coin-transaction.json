@@ -2,22 +2,24 @@
     "topic": {
         "attributes": {
             "title": "Transaction performance of cryptos",
-            "description": "Listing of cryptos plotted against average transaction price and average transaction time.",
-            "snapshot_date": "2018-02-01",
-            "permanent_id": "coin-transactions",
+            "description": "A visualisation of cryptocurrencies measured against average transaction price vs. average transaction time. Snap shot Januari 2018.",
+            "snapshot_date": "2018-01-01",
+            "permanent_id": "coin-transaction",
             "chart_type": "bubble"
         },
         "items": [
             {
-                "title": "XRP",
+                "title": "Ripple",
+                "description": "Ripple (XRP)\n\nhttps://ripple.com/",
                 "axis": {
-                    "x": 0.1,
-                    "y": 0.5
+                    "x": 0.09941305606923205,
+                    "y": 0.3965517397280093
                 },
                 "id": "xrp"
             },
             {
                 "title": "Stellar",
+                "description": "Stellar Lumens (XLM)\n\nhttps://www.stellar.org/",
                 "axis": {
                     "x": 0.2,
                     "y": 0.1
@@ -25,46 +27,56 @@
                 "id": "xlm"
             },
             {
-                "title": "BCH",
+                "title": "Bitcoin Cash",
+                "description": "Bitcoin Cash (BCH) is a fork from BTC.\n\nhttps://www.bitcoincash.org/",
                 "axis": {
-                    "x": 0.3,
-                    "y": 0.6
+                    "x": 0.28833455836519284,
+                    "y": 0.5114942762586805
                 },
                 "id": "bch"
             },
             {
-                "title": "ETH",
+                "title": "Ethereum",
+                "description": "Ethereum (ETH)\n\nhttps://www.ethereum.org/",
                 "axis": {
-                    "x": 0.4,
-                    "y": 0.7
+                    "x": 0.4112252418031084,
+                    "y": 0.65095785635489
                 },
                 "id": "eth"
-            },{
-                "title": "XEM",
+            },
+            {
+                "title": "NEM",
+                "description": "NEM (XEM)\n\nhttps://nem.io/",
                 "axis": {
-                    "x": 0.6,
-                    "y": 0.6
+                    "x": 0.5854732432263963,
+                    "y": 0.5530012907805266
                 },
                 "id": "xem"
-            },{
+            },
+            {
                 "title": "DASH",
+                "description": "DASH (DASH)\n\nhttps://www.dash.org/",
                 "axis": {
-                    "x": 0.8,
-                    "y": 0.55
+                    "x": 0.8239178596658909,
+                    "y": 0.620051094337746
                 },
                 "id": "dash"
-            },{
-                "title": "LTC",
+            },
+            {
+                "title": "Litecoin",
+                "description": "Litecoin (LTC)\n\nhttps://litecoin.org/",
                 "axis": {
-                    "x": 0.78,
-                    "y": 0.53
+                    "x": 0.7487160540641622,
+                    "y": 0.4636015150282118
                 },
-                "id": "eth"
-            },{
+                "id": "ltc"
+            },
+            {
                 "title": "BTC",
+                "description": "Bitcoin (BTC)\n\nhttps://bitcoin.org/en/",
                 "axis": {
                     "x": 0.9,
-                    "y": 0.9
+                    "y": 0.98
                 },
                 "id": "btc"
             }
@@ -76,7 +88,10 @@
                 "more": "long"
             },
             "y": {
-                "label": "Avg. transaction fee"            }
+                "label": "Avg. transaction fee",
+                "less": "10x",
+                "more": "1,000x"
+            }
         },
         "size": {
             "label": "Total transactions"

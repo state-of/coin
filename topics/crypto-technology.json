@@ -1,87 +1,86 @@
 {
     "topic": {
         "attributes": {
-            "title": "Crypto Technology Hype Cycle",
-            "description": "The Crypto Technology Hype Cycle provides an overview of the current state of technology involved with cryptocurrencies.",
+            "title": "Crypto Technology",
+            "description": "A visualisation the current state of technology involved with cryptocurrencies using the hype cycle. See also our [Crypto Hype Cycle](/t/crypto-market). These are not specific to a single project.",
             "snapshot_date": "2017-02-16",
             "permanent_id": "crypto-technology",
             "chart_type": "hype"
         },
         "items": [
-            {
-                "title": "Blockchain",
-                "description": "The blockchain is at the core of cryptocurrencies. In short it represents a public ledger of who owns what.",
-                "axis": {
-                    "x": 0.52,
-                    "y": null
-                },
-                "id": "blockchain"
-            },
-            {
-                "title": "Tokens (Ethereum",
-                "description": "Ethereum based tokens go by the ERC-20 standard, and allow third parties to launch custom tokens on top of the Ethereum network. For technical details: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md",
-                "axis": {
-                    "x": 0.3,
-                    "y": null
-                },
-                "id": "tokens-ethereum"
-            },
-            {
-                "title": "Tokens (Stellar)",
-                "description": "Stellar tokens are custom tokens utilizing the Stellar network.",
-                "axis": {
-                    "x": 0.1,
-                    "y": null
-                },
-                "id": "token-stellar"
-            },
-            {
-                "title": "Smart Contracts",
-                "description": "Smart Contracts is a program that is executed on the blockchain network.",
-                "axis": {
-                    "x": 0.17,
-                    "y": null
-                },
-                "id": "smartcontracts"
-            },
-            {
-                "title": "dApps",
-                "description": "dApps is short for decentralized apps. It allows programs to execute code on the blockchain network. An interesting overiew: https://www.stateofthedapps.com/",
-                "axis": {
-                    "x": 0.4,
-                    "y": null
-                },
-                "id": "dapps"
-            },
-            {
-                "title": "Lightning Network",
-                "description": "The lightning network is a protocol on top of the blockchain, allowing instant transactions over a payment channel. https://en.wikipedia.org/wiki/Lightning_Network",
-                "axis": {
-                    "x": 0.22,
-                    "y": null
-                },
-                "id": "lightning"
-            },
-            {
-                "title": "Proof of Work",
-                "description": "",
-                "axis": {
-                    "x": 0.82,
-                    "y": null
-                },
-                "id": "work"
-            },
-            {
-                "title": "Proof of Stake",
-                "description": "",
-                "axis": {
-                    "x": 0.1,
-                    "y": null
-                },
-                "id": "stake"
-            }
-
-        ],
+    {
+        "title": "Blockchain",
+        "description": "The blockchain is at the core of cryptocurrencies. In short it represents a public ledger of who owns what.",
+        "axis": {
+            "x": 0.5620689697265625,
+            "y": null
+        },
+        "id": "blockchain"
+    },
+    {
+        "title": "Tokens (Ethereum",
+        "description": "Ethereum based tokens go by the ERC-20 standard, and allow third parties to launch custom tokens on top of the Ethereum network.\n\nFor technical details: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md",
+        "axis": {
+            "x": 0.36 ,
+            "y": null
+        },
+        "id": "tokens-ethereum"
+    },
+    {
+        "title": "Tokens (Stellar)",
+        "description": "Stellar tokens, also known as assets, are custom tokens utilized within the Stellar network.\n\nhttps://www.stellar.org/developers/guides/issuing-assets.html",
+        "axis": {
+            "x": 0.1,
+            "y": null
+        },
+        "id": "token-stellar"
+    },
+    {
+        "title": "Smart Contracts",
+        "description": "Smart Contracts is code that is executed on the blockchain network. Several coins allow smart contracts. Differences between them is based on contract code language, speed and costs.",
+        "axis": {
+            "x": 0.5068965454101563,
+            "y": null
+        },
+        "id": "smartcontracts"
+    },
+    {
+        "title": "dApps",
+        "description": "dApps is short for decentralized apps. It allows programs to execute code on the blockchain network.\n\nAn overiew: https://www.stateofthedapps.com/",
+        "axis": {
+            "x": 0.30,
+            "y": null
+        },
+        "id": "dapps"
+    },
+    {
+        "title": "Lightning Network",
+        "description": "The lightning network is a protocol on top of the blockchain, allowing instant transactions over a payment channel.\n\n* https://en.wikipedia.org/wiki/Lightning_Network",
+        "axis": {
+            "x": 0.22,
+            "y": null
+        },
+        "id": "lightning"
+    },
+    {
+        "title": "Proof of Work",
+        "description": "https://cointelegraph.com/explained/proof-of-work-explained",
+        "axis": {
+            "x": 0.82,
+            "y": null
+        },
+        "id": "work"
+    },
+    {
+        "title": "Proof of Stake",
+        "description": "https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ",
+        "axis": {
+            "x": 0.16,
+            "y": null
+        },
+        "id": "stake"
+    }
+],
         "axis": {
             "y": {
                 "label": "Expectation"
@@ -90,23 +89,28 @@
         "states": [
             {
                 "width": 0.15,
-                "label": "Innovation trigger"
+                "label": "Innovation trigger",
+                "description": "A potential technology breakthrough kicks things off."
             },
             {
                 "width": 0.13,
-                "label": "Peak expectation"
+                "label": "Peak expectation",
+                "description": "Early publicity produces a number of success stories — often accompanied by scores of failures."
             },
             {
                 "width": 0.2,
-                "label": "Disillusionment"
+                "label": "Disillusionment",
+                "description": "Interest wanes as experiments and implementations fail to deliver. Producers of the technology shake out or fail."
             },
             {
                 "width": 0.22,
-                "label": "Enlightenment"
+                "label": "Enlightenment",
+                "description": "More instances of how the technology can benefit the market start to crystallize."
             },
             {
                 "width": 0.3,
-                "label": "Productivity plateau"
+                "label": "Productivity plateau",
+                "description": "Mainstream adoption starts to take off. The technology's broad market applicability and relevance are clearly paying off."
             }
         ],
         "size": []

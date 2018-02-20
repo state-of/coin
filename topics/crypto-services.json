@@ -1,0 +1,96 @@
+{
+    "topic": {
+        "attributes": {
+            "title": "Cryptocurency Services",
+            "description": "The state of crypto services which are build to support cryptocurrencies ecosystem.",
+            "snapshot_date": "2018-02-01",
+            "permanent_id": "crypto-services",
+            "chart_type": "bell"
+        },
+        "items": [
+    {
+        "id": "robinhood",
+        "title": "Robinhood",
+        "description": "Robinhood allows trades on normal stock, as well as cryptocurrency with their apps.",
+        "axis": {
+            "x": 0.2913793029785156,
+            "y": null
+        },
+        "size": 0.6
+    },
+    {
+        "id": "revolut",
+        "title": "Revolut",
+        "description": "Revolut has a banking license in Europe, and allows holding and trading of cryptocurrencies.",
+        "axis": {
+            "x": 0.25,
+            "y": null
+        },
+        "size": 0.6
+    },
+    {
+        "title": "Debit cards",
+        "description": "Buy a debit card with your crypto. Recent changes by VISA and Mastercard cancelled all cards connected to cryptocurrencies, including [Bitwala](https://www.bitwala.com/).",
+        "axis": {
+            "x": 0.8362069091796875,
+            "y": null
+        },
+        "id": "cards"
+    },
+    {
+        "id": "stablecoins",
+        "title": "Stable coins",
+        "description": "Resources:\n\n* https://www.coindesk.com/makerdao-quest-stable-stablecoin-continues/",
+        "axis": {
+            "x": 0.20344827270507812,
+            "y": null
+        },
+        "size": 0.6
+    },
+    {
+        "id": "shapeshift",
+        "title": "Shapeshift",
+        "description": "Trade any leading blockchain asset for any other.\n\nhttps://shapeshift.io",
+        "axis": {
+            "x": 0.5,
+            "y": null
+        },
+        "size": 0.6
+    }
+],
+        "axis": {
+            "y": {
+                "label": "Adoption"
+            }
+        },
+        "states": [
+            {
+                "width": 0.2,
+                "label": "Release"
+            },
+            {
+                "width": 0.2,
+                "label": "Growth"
+            },
+            {
+                "width": 0.2,
+                "label": "Maturity"
+            },
+            {
+                "width": 0.2,
+                "label": "Challenged"
+            },
+            {
+                "width": 0.2,
+                "label": "Superseded"
+            }
+        ],
+    },
+    "events": [
+        {
+            "date": null,
+            "source": null,
+            "title": null
+        }
+    ]
+}

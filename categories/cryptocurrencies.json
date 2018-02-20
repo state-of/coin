@@ -1,16 +1,16 @@
 {
     "category": {
         "attributes": {
-            "title": "Crypto Technology",
+            "title": "Cryptocurrencies",
             "description": "",
-            "permanent_id": "technology"
+            "permanent_id": "cryptocurrencies"
         },
         "topics": [
-            "crypto-technology",
-            "coin-development",
+            "coin-hype",
+            "coin-utility",
             "token-development",
             "crypto-services",
-            "coin-transaction"
+            "apps"
         ]
     }
 }

@@ -3,7 +3,7 @@
     "topic": {
         "attributes": {
             "title": "Coin node",
-            "description": "Running a full node by disk space, bandwidth and CPU requirements",
+            "description": "Crypto coin overview comparing the coins by running a full node by disk space, bandwidth and CPU requirements",
             "snapshot_date": "2018-02-01",
             "permanent_id": "coin-node",
             "chart_type": "bubble"
@@ -12,7 +12,7 @@
             {
                 "id": "btc",
                 "title": "Bitcoin",
-                "description": "Hello",
+                "description": "",
                 "axis": {
                     "x": 0.2,
                     "y": 0.8

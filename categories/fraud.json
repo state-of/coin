@@ -2,12 +2,13 @@
     "category": {
         "attributes": {
             "title": "Crypto Fraud, Hacks and Scams.",
-            "description": "Hello World",
+            "description": "",
             "permanent_id": "fraud"
         },
         "topics": [
             "hacks",
-            "scams"
+            "scams",
+            "regulation"
         ]
     }
 }

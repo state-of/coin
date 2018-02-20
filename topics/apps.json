@@ -8,59 +8,70 @@
             "chart_type": "bubble"
         },
         "items": [
-            {
-                "id": "cryptokitty",
-                "title": "Crypto Kitty",
-                "description": "",
-                "axis": {
-                    "x": 0.5,
-                    "y": 0.2
-                }
-            },
-            {
-                "title": "Spankchain",
-                "axis": {
-                    "x": 0.4,
-                    "y": 0.8
-                },
-                "id": "spankchain"
-            },
-            {
-                "title": "Virtue Poker",
-                "axis": {
-                    "x": 0.9,
-                    "y": 0.1
-                },
-                "id": "virtuepoker"
-            },
-            {
-                "title": "EtherWarfare",
-                "description": "https://etherwarfare.com/",
-                "axis": {
-                    "x": 0.9,
-                    "y": 0.5
-                },
-                "id": "etherwarfare"
-            },
-            {
-                "title": "Etherplay",
-                "description": "http://etherplay.io/",
-                "axis": {
-                    "x": 0.9,
-                    "y": 0.2
-                },
-                "id": "etherplay"
-            },
-            {
-                "title": "OpenBazaar",
-                "description": "https://www.openbazaar.org/",
-                "axis": {
-                    "x": 0.3,
-                    "y": 0.8
-                },
-                "id": "openbazaar"
-            }
-        ],
+    {
+        "id": "cryptokitty",
+        "title": "Crypto Kitty",
+        "description": "https://www.cryptokitties.co/",
+        "axis": {
+            "x": 0.3965517272949219,
+            "y": 0.3068965454101562
+        }
+    },
+    {
+        "title": "SpankChain",
+        "description": "Adult\n\nhttps://spankchain.com/",
+        "axis": {
+            "x": 0.30172415161132815,
+            "y": 0.6896551513671875
+        },
+        "id": "spankchain"
+    },
+    {
+        "title": "Virtue Poker",
+        "description": "https://virtue.poker/",
+        "axis": {
+            "x": 0.12068965148925781,
+            "y": 0.8034483032226561
+        },
+        "id": "virtuepoker"
+    },
+    {
+        "title": "EtherWarfare",
+        "description": "https://etherwarfare.com/",
+        "axis": {
+            "x": 0.3620689697265625,
+            "y": 0.8103448486328124
+        },
+        "id": "etherwarfare"
+    },
+    {
+        "title": "Etherplay",
+        "description": "http://etherplay.io/",
+        "axis": {
+            "x": 0.2327586212158203,
+            "y": 0.7965516967773436
+        },
+        "id": "etherplay"
+    },
+    {
+        "title": "OpenBazaar",
+        "description": "https://www.openbazaar.org/",
+        "axis": {
+            "x": 0.25517240905762,
+            "y": 0.52413793945312
+        },
+        "id": "openbazaar"
+    },
+    {
+        "title": "CryptoCities",
+        "description": "https://cryptocities.net",
+        "axis": {
+            "x": 0.25517240905762,
+            "y": 0.52413793945312
+        },
+        "id": "cryptocities"
+    },
+],
         "axis": {
             "y": {
                 "label": "Monthly Users"

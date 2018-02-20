@@ -1,21 +1,21 @@
 {
     "topic": {
         "attributes": {
-            "title": "Crypto Hype Cycle",
-            "description": "The Crypto Hype Cycle with various trending topics.",
+            "title": "Crypto Market",
+            "description": "The Crypto Hype Cycle visualizes the current state of crypto. For technical aspects see our [Crypto Technology Hype Cycle](/t/crypto-technology).",
             "snapshot_date": "2018-02-01",
             "permanent_id": "crypto-market",
             "chart_type": "hype"
         },
         "items": [
             {
-                "title": "STO",
-                "description": "",
+                "title": "Darknet",
+                "description": "One of the earliest use cases for cryptocurrency is use for buying of illicit items.",
                 "axis": {
-                    "x": 0.1,
+                    "x": 0.2,
                     "y": null
                 },
-                "id": "sto"
+                "id": "darknet"
             },
             {
                 "title": "Crypto Funds",
@@ -36,22 +36,40 @@
                 "id": "ico"
             },
             {
-                "title": "Hardware Wallet",
-                "description": "",
-                "axis": {
-                    "x": 0.4,
-                    "y": null
-                },
-                "id": "wallet"
-            },
-            {
                 "title": "Decentralized exchanges",
-                "description": "",
+                "description": "Decentralized exchanges do not rely on a third party service to hold the customer's funds, but allow for peer-to-peer transations.",
                 "axis": {
-                    "x": 0.2,
+                    "x": 0.13,
                     "y": null
                 },
                 "id": "decentralized"
+            },
+            {
+                "title": "DAICO",
+                "description": "Similar to an ICO, but here after crowdsale period ends, the contract will prohibit anyone from contributing any further and a tap variable that restricts withdrawals for the developers.\n\nhttps://cointelegraph.com/explained/what-is-a-daico-explained",
+                "axis": {
+                    "x": 0.02,
+                    "y": null
+                },
+                "id": "daico"
+            },
+            {
+                "title": "Bitcoin Futures",
+                "description": "Bitcoin Futures are an agreement to buy or sell an asset on a specific future date at a specific price. Either a long position, where you agree to buy an asset in the future at a specific price when the contract expires. Or when you take a short position, you agree to sell an asset at a set price when the contract expires.\n\nBitcoin Futures are listed on Chicago Board Options Exchange (CBOE).",
+                "axis": {
+                    "x": 0.42,
+                    "y": null
+                },
+                "id": "futures"
+            },
+            {
+                "title": "Blockchain",
+                "description": "",
+                "axis": {
+                    "x": 0.72,
+                    "y": null
+                },
+                "id": "blockchain"
             }
         ],
         "axis": {
@@ -62,23 +80,28 @@
         "states": [
             {
                 "width": 0.15,
-                "label": "Innovation trigger"
+                "label": "Innovation trigger",
+                "description": "A potential technology breakthrough kicks things off."
             },
             {
                 "width": 0.13,
-                "label": "Peak expectation"
+                "label": "Peak expectation",
+                "description": "Early publicity produces a number of success stories — often accompanied by scores of failures."
             },
             {
                 "width": 0.2,
-                "label": "Disillusionment"
+                "label": "Disillusionment",
+                "description": "Interest wanes as experiments and implementations fail to deliver. Producers of the technology shake out or fail."
             },
             {
                 "width": 0.22,
-                "label": "Enlightenment"
+                "label": "Enlightenment",
+                "description": "More instances of how the technology can benefit the market start to crystallize."
             },
             {
                 "width": 0.3,
-                "label": "Productivity plateau"
+                "label": "Productivity plateau",
+                "description": "Mainstream adoption starts to take off. The technology's broad market applicability and relevance are clearly paying off."
             }
         ]
     }
