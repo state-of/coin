@@ -1,7 +1,7 @@
 {
     "topic": {
         "attributes": {
-            "title": "Blockchain applications and Games",
+            "title": "Blockchain Applications and Games",
             "description": "On overview of applications and games based on the blockchain.",
             "snapshot_date": "2018-02-01",
             "permanent_id": "apps",
@@ -14,7 +14,7 @@
                 "description": "https://www.cryptokitties.co/",
                 "axis": {
                     "x": 0.3965517272949219,
-                    "y": 0.3068965454101562
+                    "y": 0.7068965454101562
                 }
             },
             {
@@ -22,7 +22,7 @@
                 "description": "Adult\n\nhttps://spankchain.com/",
                 "axis": {
                     "x": 0.30172415161132815,
-                    "y": 0.6896551513671875
+                    "y": 0.3296551513671875
                 },
                 "id": "spankchain"
             },
@@ -31,7 +31,7 @@
                 "description": "https://virtue.poker/",
                 "axis": {
                     "x": 0.12068965148925781,
-                    "y": 0.8034483032226561
+                    "y": 0.2034483032226561
                 },
                 "id": "virtuepoker"
             },
@@ -40,7 +40,7 @@
                 "description": "https://etherwarfare.com/",
                 "axis": {
                     "x": 0.3620689697265625,
-                    "y": 0.8103448486328124
+                    "y": 0.1903448486328124
                 },
                 "id": "etherwarfare"
             },
@@ -49,7 +49,7 @@
                 "description": "http://etherplay.io/",
                 "axis": {
                     "x": 0.2327586212158203,
-                    "y": 0.7965516967773436
+                    "y": 0.2165516967773436
                 },
                 "id": "etherplay"
             },
@@ -58,7 +58,7 @@
                 "description": "https://www.openbazaar.org/",
                 "axis": {
                     "x": 0.25517240905762,
-                    "y": 0.52413793945312
+                    "y": 0.48413793945312
                 },
                 "id": "openbazaar"
             },
@@ -66,8 +66,8 @@
                 "title": "CryptoCities",
                 "description": "https://cryptocities.net",
                 "axis": {
-                    "x": 0.25517240905762,
-                    "y": 0.52413793945312
+                    "x": 0.2551,
+                    "y": 0.6241
                 },
                 "id": "cryptocities"
             }
