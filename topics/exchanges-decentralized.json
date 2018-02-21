@@ -1,38 +1,61 @@
-[
-    {
-        "id": "0x",
-        "title": "0x",
-        "description": "An open protocol for decentralized exchange of Ethereum tokens.\n\n* https://0xproject.com/\n* [0x whitepaper](https://github.com/0xProject/whitepaper/blob/master/0x_white_paper.pdf)",
+{
+    "topic": {
+        "attributes": {
+            "title": "Cryptocurency Services",
+            "description": "The state of crypto services which are build to support cryptocurrencies ecosystem.",
+            "snapshot_date": "2018-02-01",
+            "permanent_id": "crypto-services",
+            "chart_type": "market"
+        },
+        "items": [
+            {
+                "id": "0x",
+                "title": "0x",
+                "description": "An open protocol for decentralized exchange of Ethereum tokens.\n\n* https://0xproject.com/\n* [0x whitepaper](https://github.com/0xProject/whitepaper/blob/master/0x_white_paper.pdf)",
+                "axis": {
+                    "x": 0.0498899500420753,
+                    "y": 0.616858205934675
+                }
+            },
+            {
+                "id": "radarrelay",
+                "title": "Radar Relay",
+                "description": "Trade Ethereum tokens directly from your wallet.\n\nhttps://radarrelay.com/",
+                "axis": {
+                    "x": 0.35436539294388,
+                    "y": 0.45402300799334
+                }
+            },
+            {
+                "id": "etherdelta",
+                "title": "EtherDelta",
+                "description": "https://etherdelta.com/",
+                "axis": {
+                    "x": 0.35436539294388,
+                    "y": 0.62005109433775
+                }
+            },
+            {
+                "id": "airswap",
+                "title": "AirSwap",
+                "description": "AirSwap is not yet launched. Developed by Consensys.\n\nhttps://airswap.io/",
+                "axis": {
+                    "x": 0.057226731550499,
+                    "y": 0.12196677879051
+                }
+            }
+        ],
         "axis": {
-            "x": 0.0498899500420753,
-            "y": 0.616858205934675
-        }
-    },
-    {
-        "id": "radarrelay",
-        "title": "Radar Relay",
-        "description": "Trade Ethereum tokens directly from your wallet.\n\nhttps://radarrelay.com/",
-        "axis": {
-            "x": 0.35436539294388,
-            "y": 0.45402300799334
-        }
-    },
-    {
-        "id": "etherdelta",
-        "title": "EtherDelta",
-        "description": "https://etherdelta.com/",
-        "axis": {
-            "x": 0.35436539294388,
-            "y": 0.62005109433775
-        }
-    },
-    {
-        "id": "airswap",
-        "title": "AirSwap",
-        "description": "AirSwap is not yet launched. Developed by Consensys.\n\nhttps://airswap.io/",
-        "axis": {
-            "x": 0.057226731550499,
-            "y": 0.12196677879051
+            "y": {
+                "label": "Adoption",
+                "more": "Mainstream",
+                "less": "Niche"
+            },
+            "x": {
+                "label": "Maturity",
+                "more": "Established",
+                "less": "Early"
+            }
         }
     }
-]
+}
