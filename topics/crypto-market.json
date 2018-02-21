@@ -12,7 +12,7 @@
                 "title": "Darknet",
                 "description": "One of the earliest use cases for cryptocurrency is use for buying of illicit items.",
                 "axis": {
-                    "x": 0.2,
+                    "x": 0.8,
                     "y": null
                 },
                 "id": "darknet"
@@ -48,7 +48,7 @@
                 "title": "DAICO",
                 "description": "Similar to an ICO, but here after crowdsale period ends, the contract will prohibit anyone from contributing any further and a tap variable that restricts withdrawals for the developers.\n\nhttps://cointelegraph.com/explained/what-is-a-daico-explained",
                 "axis": {
-                    "x": 0.02,
+                    "x": 0.021,
                     "y": null
                 },
                 "id": "daico"
