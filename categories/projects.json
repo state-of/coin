@@ -6,7 +6,8 @@
             "permanent_id": "projects"
         },
         "topics": [
-            "token-development"
+            "token-development",
+            "token-phase"
         ]
     }
 }

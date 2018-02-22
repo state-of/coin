@@ -9,47 +9,39 @@
         },
         "items": [
             {
-                "id": "robinhood",
-                "title": "Robinhood",
-                "description": "Robinhood allows trades on normal stock, as well as cryptocurrency with their apps.",
+                "id": "0x",
+                "title": "0x",
+                "description": "An open protocol for decentralized exchange of Ethereum tokens.\n\n* https://0xproject.com/\n* [0x whitepaper](https://github.com/0xProject/whitepaper/blob/master/0x_white_paper.pdf)",
                 "axis": {
-                    "x": 0.14526781580658407,
-                    "y": 0.33269470584385663
+                    "x": 0.04535234286369845,
+                    "y": 0.4604086371989653
                 }
             },
             {
-                "id": "revolut",
-                "title": "Revolut",
-                "description": "Revolut has a banking license in Europe, and allows holding and trading of cryptocurrencies.",
+                "id": "radarrelay",
+                "title": "Radar Relay",
+                "description": "Trade Ethereum tokens directly from your wallet.\n\nhttps://radarrelay.com/",
                 "axis": {
-                    "x": 0.18928834981824957,
-                    "y": 0.17305226339295132
+                    "x": 0.2889804991117934,
+                    "y": 0.3263090149275055
                 }
             },
             {
-                "title": "Debit cards",
-                "description": "Buy a debit card with your crypto. Recent changes by VISA and Mastercard cancelled all cards connected to cryptocurrencies, including [Bitwala](https://www.bitwala.com/).",
+                "id": "etherdelta",
+                "title": "EtherDelta",
+                "description": "https://etherdelta.com/",
                 "axis": {
-                    "x": 0.3690388934592658,
-                    "y": 0.09003822496634295
+                    "x": 0.4201649075233295,
+                    "y": 0.4316729998183638
                 }
             },
             {
-                "id": "stablecoins",
-                "title": "Stable coins",
-                "description": "Resources:\n\n* https://www.coindesk.com/makerdao-quest-stable-stablecoin-continues/",
+                "id": "airswap",
+                "title": "AirSwap",
+                "description": "AirSwap is not yet launched. Developed by Consensys.\n\nhttps://airswap.io/",
                 "axis": {
-                    "x": 0.08290537368517838,
-                    "y": 0.5913154140122487
-                }
-            },
-            {
-                "id": "shapeshift",
-                "title": "Shapeshift",
-                "description": "Trade any leading blockchain asset for any other.\n\nhttps://shapeshift.io",
-                "axis": {
-                    "x": 0.6239911759398965,
-                    "y": 0.6807151716122286
+                    "x": 0.057226731550499,
+                    "y": 0.12196677879051
                 }
             }
         ],

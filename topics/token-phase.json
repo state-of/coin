@@ -1,0 +1,46 @@
+{
+    "topic": {
+        "attributes": {
+            "title": "Token Project Development Phases",
+            "description": "The current state of crypto project development split by whitepaper, ICO, testnet and mainnet.",
+            "snapshot_date": "2018-02-01",
+            "permanent_id": "token-development",
+            "chart_type": "bubble"
+        },
+        "items": [
+            {
+                "title": "Contribute to this chart",
+                "description": "Go and [edit](https://github.com/state-of/coin/blob/master/topics/token-phase.json) the data of this chart.",
+                "axis": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "id": "contribute",
+                "size": 2
+            }
+        ],
+        "axis": {
+            "y": {
+                "label": "Expectation"
+            }
+        },
+        "states": [
+            {
+                "width": 0.25,
+                "label": "Whitepaper"
+            },
+            {
+                "width": 0.25,
+                "label": "ICO"
+            },
+            {
+                "width": 0.25,
+                "label": "Testnet"
+            },
+            {
+                "width": 0.25,
+                "label": "Mainnet"
+            }
+        ]
+    }
+}
