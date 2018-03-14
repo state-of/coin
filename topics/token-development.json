@@ -48,15 +48,6 @@
                 "id": "bat"
             },
             {
-                "title": "Ripple",
-                "description": "Ripple (XRP)\n\nhttps://ripple.com/",
-                "axis": {
-                    "x": 0.5310344848632812,
-                    "y": 0.7275862121582031
-                },
-                "id": "xrp"
-            },
-            {
                 "title": "Cardano",
                 "description": "Cardano (ADA)\n\nhttps://www.cardanohub.org",
                 "axis": {
