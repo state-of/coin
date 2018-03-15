@@ -1,5 +1,17 @@
 # Contributing
-All the data is available to contributions, preferable from experts in the relevant topic.
+
+## Introduction
+
+All the charts on https://stateofcoin.com/ are build using the files in this repository. We welcome and encourage proposals to changes to these files.
+
+See this video guide on how to propose changes using `Edit Mode`:
+
+
+[![Guide Video](resources/guide-video.gif)](https://youtu.be/t16fpxs8Qps)
+
+If you have little to no experience with Github or git, contributing might look a bit daunting. Luckily you can make changes completely from within the browser as shown in the video above.
+
+Next to "Edit Mode" for advanced usage you can also edit the chart files themselves, but this is a bit more complicated unfortunately.
 
 We welcome and encourage:
 * adding or updating descriptions
@@ -13,52 +25,53 @@ We are open to:
 * changing the chart type
 * ...
 
-## Ideas
-[WIP] ideas of topics and categories.
-
 ## Beginners
-If you have little to no experience with github or git, contributing might look a bit daunting. Luckily you can make changes completely from the browser. This introduction [guide](https://guides.github.com/activities/forking/) will help you get started with [forking](https://guides.github.com/activities/forking/), [edittng](https://guides.github.com/activities/hello-world/#commit) and creating a [pull request](https://guides.github.com/activities/hello-world/#merge).
+Please use `Edit Mode` which is available in the chart menu. You can move items and add items directly in the chart.
 
-### Chart
-To reposition items in the chart, click the menu dots above the chart. Select `Edit Mode`. Drag the dots to a new position. Open the browser developer console, and copy the data and replace items[{...}] with this data.
+You download your chart changes, and propose your changes within Github as a pull request.
 
-## Data structure
-The structure is setup as following: categories represent a broader subject, referencing to multiple relevant topics. Each topic contains data to visualize the current state of that topic.
+
+## Advanced changes
+
+### Data structure
+The structure to the charts is setup as follows: categories represent a broader subject, each referencing to multiple relevant topics. A topic contains data to visualize the current state of that topic in a chart.
+
+A list of all topics is available here: [topics/](topics/).
 
 A good example of a topic is: [topics/exchanges-trust.json](topics/exchanges-trust.json). That topic is referenced by the category [categories/invest.json](categories/invest.json).
 
+ [![Exchanges Trust](https://stateofcoin.com/img/topics/exchanges-trust.png)](https://stateofcoin.com/t/exchanges-trust/)
+
 It's best to just browse a bit through the repository to get a quick understanding.
 
-## Data Format
-JSON is hard to format by hand, especially combining with markdown. The next version will have not a JSON config, but a Javascript config, less restrictive (allows inline comments), better formatting tools, and would allow for interactive data. Think of pulling in the amount raised in an ICO based on the current price using a Javascript function.
-
+### Data Format
+JSON is hard to format by hand, especially combining with markdown. The next version will move to a javascript config syntax and a preview featured which should make proposing changes easier.
 
 ### Chart types
-Initially build around the hype cycle curve, it now supports a bell and bubble chart type as well. Bubble should become the default:
-![Example](https://cdn-images-1.medium.com/max/800/1*dn274lyUoylpBUFJSSDldg.gif)
+We support three type of charts, of which `bubble` is the default.
 
-1. 'bubble' plots a X by Y graph without a curve
-2. 'bell' contains several states and each item sits on a bell curve
-3. 'hype' follow the hype cycle curve for each hype cycle phase.
+1. `bubble` plots a graph with items places on the x and y axis, without any curve
+2. `bell` contains several states and each item sits on a bell curve
+3. `hype` follows the hype cycle curve for each hype cycle phase.
 
-## Attributes
+### Attributes
 Attributes of the chart.
 * title - A reference title
 * subtitle - A promotional title. Usually in the form of a question of which the chart is the answer.
 * description - A long form description of what the chart answers. Markdown only.
-* chart_type - Type of chart to render, either 'bubble', 'market' or 'hype'.
+* chart_type - Type of chart to render, either `bubble`, `market` or `hype`.
 * permanent_id = A permanent slug ID.
 
 ### Items
 List of the items usually as entities and their attributes to plot.
-* id [deprecate]
+* id
 * title
 * description
 * axis
     * x [0.0, 1.0]
     * y [0.0, 1.0]
 * state
-* size [optional]
+* size
 
 ### Axis
 Naming of the axis, and its directional meaning.
@@ -71,34 +84,28 @@ Naming of the axis, and its directional meaning.
     * negative
     * positive
 
-### States [optional]
+### States
 The states the chart has. Label and width.
 
-### Size [optional]
+### Size
 Determines the size of the bubble.
 * title
 * value
 
 ### Positioning item
 The position is determined by:
-- 'bubble' a float number [0.0 - 1.0] for X and Y
-- 'hype' 'bell' a float number [0.0 - 1.0] for X
-
-## Events [WIP]
-Events that impact the items in the charts.
-* date (Y-m-d)
-* source (link)
-* title
-* reference_id = to item ID.
+- `bubble` a float number [0.0 - 1.0] for X and Y
+- `hype` and `bell` a float number [0.0 - 1.0] for X
 
 ## Merging proposal
-A commit should be followed up by a merge requests which starts a discussion thread, of which a decision is made to merge or discard.
+A commit should be followed up by a merge requests which starts a discussion thread. Make clear why you propose a change. Most changes are merged, letting the community eventually settle on a consensus variation.
 
 # Guidelines
 1. Don't commit changes that have a sole commercial or promotional intent. General rule is to not add any items to which you are affiliated. Updating inaccuracies or descriptions are allowed and encouraged.
 2. Don't be an ass by forcing your personal opinion.
 
 # Future
-Looking for a way to make snapshots of the data to allow moving forward/backward into time.
-Easy tool to create and edit a great chart, and output JSON.
-Looking at changing .json to a .js format.
+* Looking for a way to make snapshots of the data to allow moving forward/backward into time.
+* Support (news) events, to understand better why things are were they are.
+* Easy tool to create and edit a great chart, and easily propose a change.
+* Optionally looking at changing .json to a .js format.
